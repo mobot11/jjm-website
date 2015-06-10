@@ -28,10 +28,10 @@
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav">
           <li><a href="#">Contact Us</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav">
           <li><a href="#">About JM&A</a></li>
         </ul>
         <ul class="nav navbar-nav">
@@ -80,8 +80,9 @@
             </ul>
           </li>
         </ul>
-        <p class="nav navbar-nav">
-         Call us at: (509) 754-2356
+        <p class="nav navbar-nav navbar-right" id="phoneNumbers">
+         Ephrata: (509) 754-2356<br>
+         Moses Lake: (509) 766-2356
        </p>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -97,23 +98,22 @@
         <span>
           <img id="main-image" src="/pictures/JJM-staff.jpg"/>
         </span>
-    </div>
+
     <form><h4>Contact Us</h4>
     <div class="form-group">
-      <label for="exampleInputEmail1">Email address</label>
+      <label for="exampleInputEmail1">Email address:</label>
       <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
     </div>
     <div class="form-group">
-      <label for="exampleInputPassword1">Phone Number</label>
-      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      <label for="exampleInputPassword1">Phone Number:</label>
+      <input type="PhoneNumber" class="form-control" id="exampleInputPassword1" placeholder="Enter Phone Number">
     </div>
-    <div class="checkbox">
-      <label>
-        <input type="checkbox"> Check me out
-      </label>
-    </div>
+    <div class="form-group">
+      <label for="briefMessage">Brief Message:</label>
+      <textarea id="bio" name="user_bio" placeholder="Brief Message" maxlength="200"></textarea>
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
+  </div>
   </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="/bootstrap/dist/js/bootstrap.min.js"></script>

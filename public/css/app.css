@@ -1,5 +1,21 @@
+@media only screen and (max-device-width: 480px) {
+    #main-image {
+        height:auto !important;
+        width:100% !important;
+    }
+}
 body {
-  background-color: #EDF0F5 !important;
+  background-image: #EDF0F5 !important;
+}
+form {
+  width: 20%;
+  margin: 0;
+  float: right;
+  font-size: 1em !important;
+  background-color: #ACB9C9;
+  border: black 1em;
+  border-radius: 5%;
+  vertical-align: center;
 }
 #main-content {
   background-color: #FFF;
@@ -10,6 +26,10 @@ body {
 
 #main-image {
   margin: 0 auto;
+}
+
+textarea#bio {
+  width: 100%;
 }
 
 
@@ -23,15 +43,9 @@ body {
   height: 25.9em;
 }
 
-@media only screen and (max-device-width: 480px) {
-    #main-image {
-        height:auto !important;
-        width:100% !important;
-    }
+#phoneNumbers {
+  text-align: right !important;
 }
 
-form {
-  width: 20%;
-  margin: 0;
-  float: right;
-}
+
+
