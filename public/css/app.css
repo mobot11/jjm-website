@@ -5,8 +5,8 @@
     }
 }
 body {
-  background-image: #EDF0F5 !important;
-}
+  background-color: #EDF0F5!important;
+  }
 form {
   width: 20%;
   margin: 0;
@@ -39,12 +39,28 @@ textarea#bio {
 }
 
 #main-image {
-  width: 39em;
-  height: 25.9em;
+  width: 80%;
+  margin-left: 10%;
 }
 
 #phoneNumbers {
   text-align: right !important;
+}
+
+#subHeader {
+  font-family: 'Lora', serif;
+  font-size: 1.7em;
+  float: right;
+  margin: 0 auto;
+}
+
+/*#bigLogo {
+  padding-bottom: 2%;
+}*/
+
+#bigLogo {
+  margin-left: 9%;
+  margin-bottom: 1%
 }
 
 
