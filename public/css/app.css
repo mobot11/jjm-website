@@ -1,0 +1,37 @@
+body {
+  background-color: #EDF0F5 !important;
+}
+#main-content {
+  background-color: #FFF;
+}
+#jjmLogo {
+  margin-top: .3em;
+}
+
+#main-image {
+  margin: 0 auto;
+}
+
+
+#home-image {
+  vertical-align: center;
+
+}
+
+#main-image {
+  width: 39em;
+  height: 25.9em;
+}
+
+@media only screen and (max-device-width: 480px) {
+    #main-image {
+        height:auto !important;
+        width:100% !important;
+    }
+}
+
+form {
+  width: 20%;
+  margin: 0;
+  float: right;
+}

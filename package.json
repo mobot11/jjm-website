@@ -1,0 +1,23 @@
+{
+  "name": "jjm-website",
+  "version": "0.1.0",
+  "description": "Building a website for Jerry Moberg & Associates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mobot11/jjm-website.git"
+  },
+  "author": "Dylan Moberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mobot11/jjm-website/issues"
+  },
+  "homepage": "https://github.com/mobot11/jjm-website",
+  "dependencies": {
+    "bootstrap": "^3.3.4",
+    "express": "^4.12.4"
+  }
+}
